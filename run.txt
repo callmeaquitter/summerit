@@ -7,3 +7,5 @@ npm run start - запускает проект - создает локальн�
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 в index.css все удаляем
+
+сниппетт rafce
