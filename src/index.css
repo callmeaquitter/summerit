@@ -26,3 +26,16 @@ body {
     color: var(--text-color);
     background: var(--bg-color);
 }
+
+@media (max-width: 1560px) {
+    :root {
+        --big-font:3.5rem;
+        --h2-font:2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .col {
+        width: 100%;
+    }
+}

@@ -70,3 +70,11 @@
     color: var(--bg-color);
     background: var(--text-color);
 }
+
+
+@media (max-width: 1140px) {
+    .col {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+}
