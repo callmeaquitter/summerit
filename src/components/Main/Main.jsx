@@ -20,7 +20,7 @@ const Main = () => {
         </div>
     </section>
 
-    
+
     <section className={styles.about} id="about">
         <div className={styles.about_img}>
             <img src="https://img.freepik.com/free-vector/realistic-poke-bowl-food-illustration_52683-82197.jpg?w=740&t=st=1686496894~exp=1686497494~hmac=e6d577f83939474a5cbc193db00dbefd055e69f556022ad0780eaa28f6dc5ac0" aria-label ="Second" />
@@ -45,7 +45,7 @@ const Main = () => {
             <h2>Fresh taste and great price</h2>
         </div>
 
-        <div className="menu_container">
+        <div className={styles.menu_container}>
             <div className={styles.box}>
                 <div className={styles.box_img}>
                     <img src="https://img.freepik.com/free-vector/realistic-poke-bowl-food-illustration_52683-82197.jpg?w=740&t=st=1686496894~exp=1686497494~hmac=e6d577f83939474a5cbc193db00dbefd055e69f556022ad0780eaa28f6dc5ac0" aria-label = "Third" />

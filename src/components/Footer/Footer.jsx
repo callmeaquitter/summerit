@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Footer.module.css';
 
+
 const Footer = () => {
    return (
       <section id='contact'>
@@ -70,16 +71,16 @@ const Footer = () => {
                   <h4>Contact Us</h4>
                   <div className={styles.social}>
                      <a href='#home' aria-label = "home">
-                        <i className={styles.bx_bxl_facebook}></i>
+                        <i className='bx bxl-facebook'></i>
                      </a>
                      <a href='#about' aria-label = "about">
-                        <i className={styles.bx_bxl_instagram}></i>
+                        <i className='bx bxl-instagram'></i>
                      </a>
                      <a href='#menu' aria-label = "menu">
-                        <i className={styles.bx_bxl_twitter}></i>
+                        <i className='bx bxl-twitter'></i>
                      </a>
                      <a href='#services' aria-label = "services">
-                        <i className={styles.bx_bxl_youtube}></i>
+                        <i className='bx bxl-youtube'></i>
                      </a>
                   </div>
                </div>

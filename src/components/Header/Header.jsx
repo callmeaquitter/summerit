@@ -1,11 +1,16 @@
 import React from 'react';
+import { useState } from 'react';
 import styles from "./Header.module.css";
+import { BiMenu } from "react-icons/bi";
 
 const Header = () => {
+  const [active, setActive] = useState(false);
+  
   return (
     <header>
         <a href="#home" className={styles.logo}>2Good4Food</a>
-        <div className={styles.bx_bx_menu} id="menu_icon"></div>
+        
+        <BiMenu className={styles.menu_icon} onClick={() => setActive(!active)} />
 
         <ul className={styles.navbar}>
             <li><a href="#home">Home</a></li>
